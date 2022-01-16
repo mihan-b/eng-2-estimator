@@ -167,7 +167,7 @@ link="https://research.mcmaster.ca/funding/nserc-undergraduate-student-research-
 raw=requests.get(link)
 rawtext=raw.text
 first=rawtext.split("<b>")
-second=split[2]
+second=first[2]
 third=second.split("<")
 deadline=third[0]
 
